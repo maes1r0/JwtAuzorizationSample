@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthorizationSample.Frontend", "JwtAuthorizationSample.Frontend\JwtAuthorizationSample.Frontend.csproj", "{5FAA9A15-2061-4FA5-9566-5292C042E3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthorizationSample.Authorization.WebApi", "JwtAuthorizationSample.Authorization.WebApi\JwtAuthorizationSample.Authorization.WebApi.csproj", "{5249188D-16F5-4E4D-B0D3-53312E084C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthorizationSample.Authorization.Service", "JwtAuthorizationSample.Authorization.Service\JwtAuthorizationSample.Authorization.Service.csproj", "{D2ECC328-0170-402F-8963-773098A30897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthorizationSample.Authorization.Domain", "JwtAuthorizationSample.Authorization.Domain\JwtAuthorizationSample.Authorization.Domain.csproj", "{13BACA24-BD62-40AD-8ECA-B50F72728140}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAA9A15-2061-4FA5-9566-5292C042E3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAA9A15-2061-4FA5-9566-5292C042E3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAA9A15-2061-4FA5-9566-5292C042E3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAA9A15-2061-4FA5-9566-5292C042E3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5249188D-16F5-4E4D-B0D3-53312E084C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5249188D-16F5-4E4D-B0D3-53312E084C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5249188D-16F5-4E4D-B0D3-53312E084C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5249188D-16F5-4E4D-B0D3-53312E084C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ECC328-0170-402F-8963-773098A30897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ECC328-0170-402F-8963-773098A30897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ECC328-0170-402F-8963-773098A30897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ECC328-0170-402F-8963-773098A30897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BACA24-BD62-40AD-8ECA-B50F72728140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BACA24-BD62-40AD-8ECA-B50F72728140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BACA24-BD62-40AD-8ECA-B50F72728140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BACA24-BD62-40AD-8ECA-B50F72728140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
