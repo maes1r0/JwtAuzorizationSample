@@ -1,0 +1,18 @@
+﻿@page
+@model JwtAuthorizationSample.Pages.LoginPage
+
+<form asp-controller="Authorization" asp-action="Login" method="post">
+    <div class="container">
+        <label for="userName">User name</label>
+        <input id="userName" type="text" required/>
+    </div>
+    <br>
+    <div class="container">
+        <label for="password">Password</label>
+        <input id="password" type="password" required>
+    </div>
+    <br>
+    <div class="container">
+        <input type="submit" value="Login"/>
+    </div>
+</form>
